@@ -1,5 +1,5 @@
 
-# [portland local business api](https://github.com/johnedisc/portland_local_businesses_api)
+# students tracker api
 ### Special Project #13 for [Epicodus](https://epicodus.com), 7 April 2023
 
 #### by [John Diggins](https://github.com/john-dig), [Mike Donovan](https://github.com/eggborne), [Chris Johnedis](https://github.com/johnedisc)
@@ -65,7 +65,7 @@ dotnet ef database update
 ```
 7. you are ready to start the api server. this will start the server in production mode. if you are going to develop it further, run the following without the --launch-profile
 ``` bash
-dotnet watch run --launch-profile "PortlandLocalShopsApi-Production"
+dotnet watch run --launch-profile "TrackerApi-Production"
 ```
 8. use your favorite program to make api calls (eg, [postman](https://www.postman.com/), [curl](https://curl.se/) on the command line, or with swagger). swagger can be found at [http://localhost:5288/swagger](http://localhost:5250/swagger)
 
